@@ -1,0 +1,4 @@
+#whac-a-mole
+Vanilla Javascript Game!
+
+a simple grid-based Game using HMTL, CSS, and Javascript. The Idea is simple! Player need to hit the grid with the mole in as many times as possible until the time runs out.

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+#grid {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
+}
+
+#grid .grid-item {
+  border: 1px solid black;
+}
+
+#grid .grid-item.mole {
+  background-image: url("./mole.jpg");
+  background-size: contain;
+}
